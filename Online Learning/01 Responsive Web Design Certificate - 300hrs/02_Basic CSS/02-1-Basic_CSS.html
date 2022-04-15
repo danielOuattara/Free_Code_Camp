@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic CSS</title>
+</head>
+<body>
+
+
+<!-- Introduction to Basic CSS
+===============================
+
+Cascading Style Sheets (CSS) tell the browser 'how' to display the text 
+and other content that you write in HTML.
+
+Note that CSS is 'case-sensitive' so be careful with your capitalization.
+
+CSS has been adopted by all major browsers and allows you to control:
+
+  >  color
+  >  fonts
+  >  positioning
+  >  spacing
+  >  sizing
+  >  decorations
+  >  transitions
+
+There are three main ways to apply CSS styling: 
+
+      > You can apply inline styles directly to HTML elements with 
+        the style attribute. 
+ 
+      > You can place CSS rules within style tags in an HTML document. 
+ 
+      > You can write CSS rules in an external style sheet, then 
+        reference that file in the HTML document. Even though 
+        the first two options have their use cases, most developers 
+        prefer external style sheets because they keep the styles 
+        separate from the HTML elements. This improves the readability 
+        and reusability of your code.
+
+The idea behind CSS is that you can use a selector to target an HTML element 
+in the DOM (Document Object Model) and then apply a variety of attributes to 
+that element to change the way it is displayed on the page.
+
+In this section, you'll see how adding CSS styles to the elements of your 
+CatPhotoApp can change it from simple text to something more.
+
+Note: Some browser extensions may interfere with elements on the page. 
+      If the tests fail, try disabling your extensions for the most 
+      reliable experience.                                    -->
+    
+
+
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+        <style>
+        .red-text {
+            color: red;
+        }
+
+        h2 {
+            font-family: Lobster, monospace;
+        }
+
+        p {
+            font-size: 16px;
+            font-family: monospace;
+        }
+
+        .smaller-image {
+            width: 100px;
+        }
+
+        .thick-green-border {
+            border-width: 10px;
+            border-style: solid;
+            border-color: green;
+            /* border-radius: 10px; */
+            border-radius: 50%;
+        }
+
+        .background-silver{
+            background-color: silver;
+        }
+
+        #cat-photo-form {
+            background-color: green;
+        }
+
+        [type='checkbox'] {
+            margin: 10px 0px 15px 0px;
+        }
+        </style>
+
+        <h2 class="red-text">CatPhotoApp</h2>
+        <main>
+        <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
+
+        <a href="#"><img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+
+        <div class="background-silver">
+            <p>Things cats love:</p>
+            <ul>
+            <li>cat nip</li>
+            <li>laser pointers</li>
+            <li>lasagna</li>
+            </ul>
+            <p>Top 3 things cats hate:</p>
+            <ol>
+            <li>flea treatment</li>
+            <li>thunder</li>
+            <li>other cats</li>
+            </ol>
+        </div>
+
+        <form id="cat-photo-form" action="https://freecatphotoapp.com/submit-cat-photo">
+            <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+            <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+            <label><input type="checkbox" name="personality" checked> Loving</label>
+            <label><input type="checkbox" name="personality"> Lazy</label>
+            <label><input type="checkbox" name="personality"> Energetic</label><br>
+            <input type="text" placeholder="cat photo URL" required>
+            <button type="submit">Submit</button>
+        </form>
+
+
+<!--box 1-->
+        <style>  
+            .injected-text {
+              margin-bottom: -25px;
+              text-align: center;
+            }
+          
+            .box {
+              border-style: solid;
+              border-color: black;
+              border-width: 2px;
+              text-align: center;
+              /* width: 30%; */
+              margin-top: 2em;
+
+            }
+          
+            .yellow-box {
+              background-color: yellow;
+              padding: 20px 40px 20px 40px;
+            }
+          
+            .red-box {
+              background-color: red;
+              margin: 20px 40px 20px 40px;
+              padding: 1.5em;
+          
+            }
+          
+            .green-box {
+              background-color: green;
+              margin: 20px 40px 20px 40px;
+            }
+          </style>
+          <h5 class="injected-text">margin</h5>
+          
+          <div class="box yellow-box">
+            <h5 class="box red-box">padding</h5>
+            <h5 class="box green-box">padding</h5>
+          </div>
+
+
+<!--box2-->
+        <style> 
+            .injected-text {
+              margin-bottom: -25px;
+              text-align: center;
+            }
+          
+            .box {
+              border-style: solid;
+              border-color: black;
+              border-width: 2px;
+              text-align: center;
+              /* width: 30%; */
+              margin-top: 2rem;
+            }
+          
+            .yellow-box {
+              background-color: yellow;
+              padding: 20px 40px 20px 40px;
+            }
+          
+            .red-box {
+              background-color: red;
+              margin: 20px 40px 20px 40px;
+          
+            }
+          
+            .green-box {
+              background-color: green;
+              margin: 20px 40px 20px 40px;
+            }
+          </style>
+          <p>Box 2:</p>
+          <h5 class="injected-text">margin</h5>
+          
+          <div class="box yellow-box">
+            <h5 class="box red-box">padding</h5>
+            <h5 class="box green-box">padding</h5>
+          </div>
+        </main>
+
+
+
+
+</body>
+</html>

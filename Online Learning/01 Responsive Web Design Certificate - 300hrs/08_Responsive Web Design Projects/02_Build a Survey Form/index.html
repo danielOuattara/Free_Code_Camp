@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Survey Form FCC</title>
+</head>
+<body>
+
+        <header>
+            <h1 id="title">freeCodeCamp Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </header>
+
+        <main>
+            <form action="/file.php" id="survey-form">
+
+                <label for="name" id="name-label">Name
+                    <input type="text" id="name" class="form-input" name="name" placeholder="Enter your name" required/>
+                </label>
+
+                <label for="email" id="email-label">Email
+                    <input type="email" id="email" class="form-input" name="email" placeholder="Enter your email" required />
+                </label>
+
+                <label for="number" id="number-label">Age<span class="age-optionnal">(optionnal)</span>
+                    <input type="number" id="number" class="form-input" name="number" placeholder="Enter your age" min="3" max="160">
+                </label>
+                    
+                    <label for="dropdown" class="select-role-label">Which option best describes your current role ?</label>
+                    <select name="dropdown" id="dropdown">
+                        <option value="" selected>Select your current role</option>
+                        <option value="student">Student</option>
+                        <option value="full time job">Full Time Job</option>
+                        <option value="full time learner">Full Time Learner</option>
+                        <option value="prefer not to tell ">Prefer Not To Tell</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                <p class="form-item-radio-rcmd">Would you recommend freeCodeCamp to a friend ? </p>
+
+                <label for="rcmd-definitly" class="form-item-radio-rcmd"> 
+                    <input type="radio" class="form-input-radio" id="rcmd-definitly" name="user-recommend" value="definitly"/>
+                    Definitely
+                </label>
+            
+                <label for="rcmd-maybe" class="form-item-radio-rcmd">
+                    <input type="radio" class="form-input-radio" id="rcmd-maybe" name="user-recommend" value="maybe"/>
+                    Maybe
+                </label>
+                
+                <label for="rcmd-not-sure" class="form-item-radio-rcmd"> 
+                    <input type="radio" class="form-input-radio" id="rcmd-not-sure" name="user-recommend" value="not sure"/>
+                    Not Sure
+                </label>
+
+                <label for="feature-select" class="feature-select">What is your favorite feature of freeCodeCamp?</label>
+                <select name="select-option" id="feature-select">
+                    <option value="" selected>Select an option</option>
+                    <option value="student">Challenges</option>
+                    <option value="full time job">Projects</option>
+                    <option value="full time learner">Community</option>
+                    <option value="prefer not to tell ">Open Source</option>
+                    <option value="other">Other</option>
+                </select>
+                    
+
+                <p class="para-improve">What would you like to see improved? <span class="span-improve">(Check all that apply)</span></p>
+
+                <label for="frontend-projects" class="checkbox-improve-label">
+                    <input type="checkbox" name="favorites" id="frontend-projects" value="frontend-projects" />
+                    Backends Projects
+                </label>
+
+                <label for="backend-projects" class="checkbox-improve-label">
+                    <input type="checkbox" name="favorites" id="backend-projects" value="backend-projects" />
+                    Frontends Projects
+                </label>
+
+                <label for="data-visualization" class="checkbox-improve-label">
+                    <input type="checkbox" name="favorites" id="data-visualization" value="data-visualization"/>
+                    Data Visualization
+                </label>
+
+                <label for="challenges" class="checkbox-improve-label">
+                    <input type="checkbox" name="favorites" id="challenges" value="challenges" />
+                    Challenges
+                </label>
+
+                <label for="open-source-community" class="checkbox-improve-label">
+                    <input type="checkbox" name="favorites" id="open-source-community" value="open-source-community" />
+                    Open source community
+                </label>
+
+                <label for="gitters-help-rooms" class="checkbox-improve-label"> 
+                    <input type="checkbox" name="favorites" id="gitters-help-rooms" value="gitters-help-rooms" />
+                    Gitters Help Rooms
+                </label>
+
+                <label for="videos" class="checkbox-improve-label"> 
+                    <input type="checkbox" name="favorites" id="videos" value="videos" />
+                    Videos
+                </label>
+                
+                <label for="city-meetups" class="checkbox-improve-label">
+                    <input type="checkbox" name="favorites" id="city-meetups" value="citu-meetups" />
+                    City Meetups
+                </label>
+
+                <label for="wiki" class="checkbox-improve-label">
+                    <input type="checkbox" name="favorites" id="wiki" value="wiki"/>
+                    Wiki
+                </label>
+
+                <label for="forum" class="checkbox-improve-label">
+                    <input type="checkbox" name="favorites" id="forum" value="forum"/>
+                    Forum
+                </label>
+                
+                <label for="additional-courses" class="checkbox-improve-label">
+                    <input type="checkbox" class="form-input" name="favorites" id="additional-courses" value="additional-courses">
+                    Additional Courses
+                </label>
+
+                <label for="suggestions" class="suggestion-label">Any comments or suggestions ?</label>
+                <textarea name="suggestions" id="suggestions" autofocus placeholder="Enter your comment here..." ></textarea>
+
+                <button type="submit" value="Submit" class="form-input" id="submit">Submit</button>
+            </form>
+        </main>
+</body>
+</html>

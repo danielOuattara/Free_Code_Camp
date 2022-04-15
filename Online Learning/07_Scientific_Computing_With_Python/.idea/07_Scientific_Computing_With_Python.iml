@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="PYTHON" />
+    <orderEntry type="module" module-name="Apprenez_a_programmer_en_Python_Vincent_Le_Goff" />
+    <orderEntry type="module" module-name="Apprenez_la_PPO_Python_Mikael_Briolet" />
+    <orderEntry type="module" module-name="Utilisation_Avancee_des_listes_en_Python_Mathieu_Schaller" />
+    <orderEntry type="module" module-name="Apprenez les bases du langage python" />
+    <orderEntry type="module" module-name="pythonProject" />
+    <orderEntry type="module" module-name="Decouvrez_la_poo_Python_Celine_Martinet" />
+    <orderEntry type="module" module-name="Perfectionnez-vous_en_Python" />
+  </component>
+</module>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <a href="https://www.google.com">Google</a>
+
+    <ul></ul>
+
+    <script type="module">
+        const anchor = d3.select("a") // find the first <a> element
+        console.log(anchor)
+
+        // Two other useful methods are append() and text().
+
+        d3
+        .select("ul")
+        .append("li")
+        .text("Very important item 1")
+        .append("li")
+        .text("Very important item 2")
+        .append("li")
+        .text("Very important item 3")
+
+        //------------------------------------
+
+        d3.select("body")
+        .append("h1")
+        .text("Learning D3")
+
+    </script>
+
+</body>
+
+</html>

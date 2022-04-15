@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic CSS</title>
+</head>
+<body>
+  <style>
+    body {
+      background-color: black;
+      font-family: monospace;
+      color: green;
+    }
+    #orange-text {   /* id override .class whatever it's position in <style> element */
+      color: orange;
+    }
+    .pink-text {
+      color: pink !important;  /* ! important give priority over any kind of CSS declaration*/
+    }
+    .blue-text {
+      color: blue;
+    }
+  </style>
+  <h1 id="orange-text" class="pink-text blue-text" style="color: white">Hello World!</h1>
+  
+
+
+
+
+
+</body>
+</html>

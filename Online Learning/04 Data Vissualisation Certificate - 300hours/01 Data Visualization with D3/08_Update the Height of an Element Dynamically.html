@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <title>Document</title>
+    <style>
+        .bar {
+            width: 35px;
+            height: 100px;
+            display: inline-block;
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <script type="module">
+        const dataset = [12, 31, 22, 17, 25, 18, 29, 14, 9];
+
+        d3.select("body").selectAll("div")
+        .data(dataset)
+        .enter()
+        .append("div")
+        .attr("class", "bar")
+        // Add your code below this line
+        .style("height", d => d + "px")
+
+        // Add your code above this line
+
+    </script>
+
+</body>
+
+</html>

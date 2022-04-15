@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/07_Scientific_Computing_With_Python.iml" filepath="$PROJECT_DIR$/.idea/07_Scientific_Computing_With_Python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../OpenClassrooms/Cours autonomes/Apprenez les bases du langage python/.idea/Apprenez les bases du langage python.iml" filepath="$PROJECT_DIR$/../../../OpenClassrooms/Cours autonomes/Apprenez les bases du langage python/.idea/Apprenez les bases du langage python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../OpenClassrooms/Cours autonomes/Apprenez_a_programmer_en_Python_Vincent_Le_Goff/.idea/Apprenez_a_programmer_en_Python_Vincent_Le_Goff.iml" filepath="$PROJECT_DIR$/../../../OpenClassrooms/Cours autonomes/Apprenez_a_programmer_en_Python_Vincent_Le_Goff/.idea/Apprenez_a_programmer_en_Python_Vincent_Le_Goff.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../OpenClassrooms/Cours autonomes/Apprenez_la_PPO_Python_Mikael_Briolet/.idea/Apprenez_la_PPO_Python_Mikael_Briolet.iml" filepath="$PROJECT_DIR$/../../../OpenClassrooms/Cours autonomes/Apprenez_la_PPO_Python_Mikael_Briolet/.idea/Apprenez_la_PPO_Python_Mikael_Briolet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../OpenClassrooms/Cours autonomes/Decouvrez_la_poo_Python_Celine_Martinet/.idea/Decouvrez_la_poo_Python_Celine_Martinet.iml" filepath="$PROJECT_DIR$/../../../OpenClassrooms/Cours autonomes/Decouvrez_la_poo_Python_Celine_Martinet/.idea/Decouvrez_la_poo_Python_Celine_Martinet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../PYTHON/w3schools.com Python3.8/.idea/PYTHON.iml" filepath="$PROJECT_DIR$/../../../PYTHON/w3schools.com Python3.8/.idea/PYTHON.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../OpenClassrooms/Cours autonomes/Perfectionnez-vous_en_Python/.idea/Perfectionnez-vous_en_Python.iml" filepath="$PROJECT_DIR$/../../../OpenClassrooms/Cours autonomes/Perfectionnez-vous_en_Python/.idea/Perfectionnez-vous_en_Python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../OpenClassrooms/Cours autonomes/Utilisation_Avancee_des_listes_en_Python_Mathieu_Schaller/.idea/Utilisation_Avancee_des_listes_en_Python_Mathieu_Schaller.iml" filepath="$PROJECT_DIR$/../../../OpenClassrooms/Cours autonomes/Utilisation_Avancee_des_listes_en_Python_Mathieu_Schaller/.idea/Utilisation_Avancee_des_listes_en_Python_Mathieu_Schaller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../OpenClassrooms/Cours autonomes/Apprenez les bases du langage python/partie3_/pythonProject/.idea/pythonProject.iml" filepath="$PROJECT_DIR$/../../../OpenClassrooms/Cours autonomes/Apprenez les bases du langage python/partie3_/pythonProject/.idea/pythonProject.iml" />
+    </modules>
+  </component>
+</project>
